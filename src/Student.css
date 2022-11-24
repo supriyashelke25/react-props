@@ -1,0 +1,27 @@
+.student-container{
+    width: 450px;
+    padding: 20px;
+    margin-top: 35px;
+    background-color: #e6f9ff;
+    box-shadow: 0 1px 7px 7px #004d66;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.student-container:hover{
+    box-shadow: 0px 0px 15px rgb(26, 209, 255);
+}
+
+h1{
+    text-align: center;
+    color: navy;
+}
+
+.name{
+    font-size: 22px;
+}
+
+.info{
+    font-size: 18px;
+}

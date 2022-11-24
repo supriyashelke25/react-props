@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Student from "./Student.js";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    return (
+    <>
+    <Student studentName="Supriya💞" college="Shivnagar Vidya Prasarak Mandal's College of Engineering Malegaon-Baramati" course="Information Technology"/>
+    <Student studentName="Divya❤️‍🩹" college="Vasantdada Patil Pratishtan's College of Engineering & Visual Arts,Sion, Mumbai" course="Information Technology"/>
+    <Student studentName="Pranali❣️" college="K.J's Educational Institute Trinity College of Engineering Pisoli, Haveli" course="Information Technology"/>
+    <Student studentName="Vaibhavi💖" college="Keystone School of Engineering, Pune" course="Computer Engineering"/>
+    </>
   );
 }
 
